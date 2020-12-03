@@ -1,0 +1,19 @@
+.navigationBarWrapper {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  background-color: green;
+}
+
+.logotype {
+  width: 100px;
+}
+
+.signin {
+  grid-column: 8/10;
+  align-self: center;
+}
+
+.logotype,
+.signin {
+  cursor: pointer;
+}
